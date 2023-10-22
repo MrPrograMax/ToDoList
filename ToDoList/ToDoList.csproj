@@ -15,4 +15,21 @@
       <ProjectReference Include="..\ToDoList.DAL\ToDoList.DAL.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Models\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Models\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Models\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Models\**" />
+      <Content Remove="Views\Shared\Error.cshtml" />
+    </ItemGroup>
+
 </Project>

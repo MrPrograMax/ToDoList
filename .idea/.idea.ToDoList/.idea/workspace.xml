@@ -9,38 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51eab061-8f30-48ec-a0e5-6477a67a9330" name="Changes" comment="Add main entity and priority enum">
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/ToDoList.DAL.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/ToDoList.DAL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/ToDoList.DAL.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/ToDoList.DAL.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="51eab061-8f30-48ec-a0e5-6477a67a9330" name="Changes" comment="add DataBase">
+      <change afterPath="$PROJECT_DIR$/ToDoList.Domain/ViewModels/CreateTaskViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList.Domain/Enum/Priority.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Domain/Enum/Priority.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Controllers/TaskController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/ToDoList.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ToDoList.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Task/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Task/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/_ViewImports.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +116,7 @@
       <updated>1697959620802</updated>
       <workItem from="1697959630964" duration="4118000" />
       <workItem from="1697968352152" duration="553000" />
+      <workItem from="1697970667002" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="Add main entity and priority enum">
       <created>1697960062662</created>
@@ -140,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697960062662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add DataBase">
+      <created>1697970801844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697970801844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add main entity and priority enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main entity and priority enum" />
+    <MESSAGE value="add DataBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DataBase" />
   </component>
 </project>
