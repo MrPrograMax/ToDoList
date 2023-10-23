@@ -6,17 +6,17 @@
 <h4 class="mb-3 text-muted">Создание задачи</h4>
 <form id="createTaskForm">
     <div class="mb-3">
-        <label class="from-label">Название задачи</label>
-        <input name="name" type="text" class="form-control"/>
+        <label class="form-label">Название задачи</label>
+        <input name="title" type="text" class="form-control"/>
     </div>
 
     <div class="mb-3">
-        <label class="from-label">Приоритет задачи</label>
+        <label class="form-label">Приоритет задачи</label>
         <select name="priority" class="form-select mb-3" asp-items="Html.GetEnumSelectList<Priority>()"></select>
     </div>
 
     <div class="mb-3">
-        <label class="from-label">Описание задачи</label>
+        <label class="form-label">Описание задачи</label>
         <textarea name="description" type="text" class="form-control" rows="3"></textarea>
     </div>
 
@@ -25,13 +25,30 @@
 
 @section Scripts
 {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        $('#createTask').on('click', function (e) {
-           $.ajax({
-               type: 'POST',
-               url: '@Url.Action("Index", "Task")',
-               data: $('createTaskForm').serialize()
-           }) 
+        $('#createTask').on('click', function (e){
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Create", "Task")',
+                data: $('#createTaskForm').serialize(),
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (response) {
+                     Swal.fire({
+                        title: 'Информация',
+                        text: response.responseJSON.description,
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                     })
+                }
+            })
         });
     </script>
 }

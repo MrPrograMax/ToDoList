@@ -984,6 +984,20 @@
         "runtime": {
           "bin/placeholder/ToDoList.Domain.dll": {}
         }
+      },
+      "ToDoList.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ToDoList.DAL": "1.0.0",
+          "ToDoList.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.Service.dll": {}
+        }
       }
     }
   },
@@ -2643,13 +2657,19 @@
       "type": "project",
       "path": "../ToDoList.Domain/ToDoList.Domain.csproj",
       "msbuildProject": "../ToDoList.Domain/ToDoList.Domain.csproj"
+    },
+    "ToDoList.Service/1.0.0": {
+      "type": "project",
+      "path": "../ToDoList.Service/ToDoList.Service.csproj",
+      "msbuildProject": "../ToDoList.Service/ToDoList.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.12",
-      "ToDoList.DAL >= 1.0.0"
+      "ToDoList.DAL >= 1.0.0",
+      "ToDoList.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2686,6 +2706,9 @@
           "projectReferences": {
             "C:\\Users\\Максим Григорьев\\RiderProjects\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj": {
               "projectPath": "C:\\Users\\Максим Григорьев\\RiderProjects\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj"
+            },
+            "C:\\Users\\Максим Григорьев\\RiderProjects\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj": {
+              "projectPath": "C:\\Users\\Максим Григорьев\\RiderProjects\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj"
             }
           }
         }
