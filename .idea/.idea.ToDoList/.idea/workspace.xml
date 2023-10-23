@@ -9,45 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51eab061-8f30-48ec-a0e5-6477a67a9330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/Interfaces/IBaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.DAL/Repositories/TaskRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Domain/Enum/StatusCode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Domain/Response/BaseResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/Implementations/TaskService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/Interfaces/ITaskService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/ToDoList.Service.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/ToDoList.Service.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/ToDoList.Service.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/ToDoList.Service.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoList.Service/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="51eab061-8f30-48ec-a0e5-6477a67a9330" name="Changes" comment="Add Task Creation Operation">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.DAL/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.DAL/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.Domain/Entity/TaskEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Domain/Entity/TaskEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList.Domain/ViewModels/CreateTaskViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Domain/ViewModels/CreateTaskViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Controllers/TaskController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/ToDoList.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ToDoList.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/Views/Task/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Task/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/ToDoList.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/ToDoList.Domain/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.Domain/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.Service/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -145,7 +110,7 @@
       <workItem from="1697959630964" duration="4118000" />
       <workItem from="1697968352152" duration="553000" />
       <workItem from="1697970667002" duration="2925000" />
-      <workItem from="1698034364806" duration="5860000" />
+      <workItem from="1698034364806" duration="6589000" />
     </task>
     <task id="LOCAL-00001" summary="Add main entity and priority enum">
       <created>1697960062662</created>
@@ -168,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697973457863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Task Creation Operation">
+      <created>1698040628099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698040628099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +164,8 @@
     <MESSAGE value="Add main entity and priority enum" />
     <MESSAGE value="add DataBase" />
     <MESSAGE value="Update site appearance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update site appearance" />
+    <MESSAGE value="Add Task Creation Operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task Creation Operation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
