@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using ToDoList.DAL.Interfaces;
 using ToDoList.Domain.Entity;
 using ToDoList.Domain.Enum;
+using ToDoList.Domain.Extenstions;
 using ToDoList.Domain.Response;
 using ToDoList.Domain.ViewModels;
 using ToDoList.Service.Interfaces;
@@ -63,6 +64,37 @@ public class TaskService : ITaskService
         {
             _logger.LogError(e, "[TaskService.Create]: {EMessage}", e.Message);
             return new BaseResponse<TaskEntity>()
+            {
+                Description = $"{e.Message}",
+                StatusCode = StatusCode.InternalServerError
+            };
+        }
+    }
+
+    public async Task<IBaseResponse<IEnumerable<TaskViewModel>>> GetTaskEntities()
+    {
+        try
+        {
+            var tasksEntities = await _taskRepository.GetAll()
+                .Select(x =>  new TaskViewModel()
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    Description = x.Description ?? "Отсутствует",
+                    Priority = x.Priority.GetDisplayName(),
+                    IsDone = x.IsDone == true ? "Выполнена" : "НЕ выполнена",
+                    CreatedDate = x.CreatedDate.ToLongDateString()
+                }).ToListAsync();
+
+            return new BaseResponse<IEnumerable<TaskViewModel>>()
+            {
+                Data = tasksEntities,
+            };
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e, "[TaskService.Create]: {EMessage}", e.Message);
+            return new BaseResponse<IEnumerable<TaskViewModel>>()
             {
                 Description = $"{e.Message}",
                 StatusCode = StatusCode.InternalServerError

@@ -9,13 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51eab061-8f30-48ec-a0e5-6477a67a9330" name="Changes" comment="Add validate method for EntityTaskViewModel">
+    <list default="true" id="51eab061-8f30-48ec-a0e5-6477a67a9330" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ToDoList.Domain/Extenstions/EnumExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList.Domain/ViewModels/TaskViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.DAL/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.DAL/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.DAL/obj/Debug/net7.0/ToDoList.DAL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.Domain/Entity/TaskEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Domain/Entity/TaskEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList.Domain/ViewModels/CreateTaskViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Domain/ViewModels/CreateTaskViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList.Service/Implementations/TaskService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Service/Implementations/TaskService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList.Service/Interfaces/ITaskService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Service/Interfaces/ITaskService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/ToDoList.Service.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Controllers/TaskController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/Views/Task/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Views/Task/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/obj/Debug/net7.0/ToDoList.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
@@ -31,7 +34,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74356f198b598e97eaeea83e8b7b1f2bfe27c0a39fedf86bb7dc44827fbda/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.DAL/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.Domain/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Максим Григорьев/RiderProjects/ToDoList/ToDoList.Domain/ViewModels/CreateTaskViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.Domain/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.Service/Class1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDoList.Service/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -117,7 +119,8 @@
       <workItem from="1697959630964" duration="4118000" />
       <workItem from="1697968352152" duration="553000" />
       <workItem from="1697970667002" duration="2925000" />
-      <workItem from="1698034364806" duration="7521000" />
+      <workItem from="1698034364806" duration="8345000" />
+      <workItem from="1698128789046" duration="4138000" />
     </task>
     <task id="LOCAL-00001" summary="Add main entity and priority enum">
       <created>1697960062662</created>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698041277718</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix bug related with null description">
+      <created>1698042179134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698042179134</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +190,8 @@
     <MESSAGE value="Update site appearance" />
     <MESSAGE value="Add Task Creation Operation" />
     <MESSAGE value="Add validate method for EntityTaskViewModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add validate method for EntityTaskViewModel" />
+    <MESSAGE value="fix bug related with null description" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug related with null description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

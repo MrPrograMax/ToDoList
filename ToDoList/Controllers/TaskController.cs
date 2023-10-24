@@ -31,4 +31,10 @@ public class TaskController : Controller
 
         return BadRequest(new { description = response.Description });
     }
+
+    public async Task<IActionResult> TaskHendler()
+    {
+        var response = await _taskService.GetTaskEntities();
+        return Json(new { data = response.Data });
+    }
 }
